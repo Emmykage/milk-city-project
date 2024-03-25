@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.farmBg{
+  background: url('../public/images/farmweath-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: linear-gradient(rgba(19, 80, 144, 0.3), rgba(0, 0, 4, 0.4)), url('../public/assets/6277667d13a5d6b2a15f8ce3d8f87c8a.jpg'); */
+
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-poppins{
+  font-family: 'Poppins', sans-serif;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
