@@ -1,6 +1,5 @@
 import React from 'react'
 import { BsInstagram } from "react-icons/bs";
-import { BiLogoFacebookCircle } from "react-icons/bi";
 import { BiLogoFacebook } from "react-icons/bi";
 import { BsTwitter } from "react-icons/bs";
 const Footer = () => {
