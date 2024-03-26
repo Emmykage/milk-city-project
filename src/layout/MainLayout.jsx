@@ -9,12 +9,9 @@ const MainLayout = ({children}) => {
      
       <Header/>
       <main>
-      {children}
-      hefef
-      <Footer/>
-
+        {children}
       </main>
-   
+      <Footer/>
     </div>
   )
 }

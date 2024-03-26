@@ -11,8 +11,7 @@ function App() {
         <Home/>
       </MainLayout>}/>
       </Routes>
-     
-    
+
     
     </div>
      );

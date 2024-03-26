@@ -1,7 +1,6 @@
 import React from 'react'
 import Earth from '../assets/images/icons/planet-earth.png'
 import Button from '../components/buttons/Button'
-// import Header from '../components/header/Header'
 
 const Home = () => {
   return (
