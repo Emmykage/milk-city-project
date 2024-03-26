@@ -51,42 +51,42 @@ const Home = () => {
           <div className='lg:px-10 px-3 flex gap-0'>
             <span className=' flex items-center justify-center bg-slate-600 h-16 w-16  rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg my-4'>DEMAND FOR FOOD</h4>
+              <h4 className='text-lg mb-4'>DEMAND FOR FOOD</h4>
               <p className='text-gray-600 text-sm px-3 leading-6'>By 2050 the world population will grow to over 10 billion people. An additional 3 billion people will enter the middle class causing food demand to sky rocket.</p>
             </div>
           </div>
           <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg my-4'>MORE STABILITY THAN THE STOCK MARKET</h4>
+              <h4 className='text-lg mb-4'>MORE STABILITY THAN THE STOCK MARKET</h4>
               <p className='text-gray-600 text-sm px-3 leading-6'>Since farmland is uncorrelated with most other major asset classes, it has proven to perform well during challenging economic conditions.</p>
             </div>
           </div>
           <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg my-4'>THEY'RE NOT MAKING ANY MORE LAND</h4>
+              <h4 className='text-lg mb-4'>THEY'RE NOT MAKING ANY MORE LAND</h4>
               <p className='text-gray-600 text-sm px-3 leading-6'>The U.S. alone loses almost 500,000 acres of farmland a year. That’s a loss of nearly 15,000,000 acres of farmland by 2050.</p>
             </div>
           </div>
           <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg my-4'>LONG TERM INVESTMENT STRATEGY</h4>
+              <h4 className='text-lg mb-4'>LONG TERM INVESTMENT STRATEGY</h4>
               <p className='text-gray-600 text-sm px-3 leading-6'>Farmland is an attractive, long-term investment that has the potential to provide  relative resiliency to challenging economic conditions.</p>
             </div>
           </div>
           <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg my-4'>HEDGE AGAINST INFLATION</h4>
+              <h4 className='text-lg mb-4'>HEDGE AGAINST INFLATION</h4>
               <p className='text-gray-600 text-sm px-3 leading-6'>Over time, farmland has proven to have a positive correlation with inflation. More so than bonds, the stock market, and even gold. On average, no investment offers a hedge against inflation like farmland.</p>
             </div>
           </div>
           <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1 '>
-              <h4 className='text-lg my-4'>AN INDUSTRY THAT MATTERS</h4>
+              <h4 className='text-lg mb-0'>AN INDUSTRY THAT MATTERS</h4>
               <p className='text-gray-600 text-sm px-0 leading-6'>Ownership in a farm operation allows investors to learn about the many aspects that go into a real working farm and the hard work that goes into feeding the world.</p>
             </div>
           </div>
