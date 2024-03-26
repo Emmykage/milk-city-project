@@ -3,21 +3,21 @@ import { NavLink } from 'react-router-dom'
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Nav = () => {
-  const [stickyNav, setStickyNav] = useState('bg-white')
+  const [stickyNav, setStickyNav] = useState('bg-gray-100/50 absolute')
   const [openMenu, setOpenMenu] = useState(false)
   const handleStickNav = () => {
     if(window.scrollY >= 120){
-      setStickyNav('fixed top-0 left-0 w-full z-50 bg-gray-100/50')
+      setStickyNav('fixed top-0 left-0 w-full z-50 bg-white')
 
     }else{
-      setStickyNav('bg-white')
+      setStickyNav('bg-gray-100/50 absolute')
     }
   }
   useEffect(()=> {
     window.addEventListener('scroll', handleStickNav)
   }, [])
   return (
-    <div className={`${stickyNav} text-center flex items-center justify-between px-6 lg:px-14 py-10 `}>
+    <div className={`${stickyNav} text-center flex items-center justify-between px-6 lg:px-14 py-10  top-0 left-0 w-full `}>
       <a href="/" className='text-xl text-green-700'> MilkCity</a>
       <nav className=''>
         <ul className={`${openMenu ? "block w-full h-screen bg-green-400" : "hidden" } absolute   lg:relative right-0 top-0 lg:flex lg:flex-wrap font-bold text-gray-700 pt-20 lg:pt-0`}>
