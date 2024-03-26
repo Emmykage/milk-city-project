@@ -19,15 +19,16 @@ const Nav = () => {
   return (
     <div className={`${stickyNav} text-center flex items-center justify-between px-6 lg:px-14 py-10 `}>
       <a href="/" className='text-xl text-green-700'> MilkCity</a>
-      <nav>
-        <ul className={`${openMenu ? "block w-full h-screen bg-green-400" : "hidden" } absolute   lg:relative right-0 top-0 lg:flex lg:flex-wrap font-bold text-gray-700 `}>
-          <li className='px-8'><NavLink>FARM</NavLink> </li>
-          <li className='px-8'><NavLink>INVESTMENT</NavLink> </li>
-         <li className='px-8'><NavLink>BLOG</NavLink></li> 
-         <li className='px-8'><NavLink to="/">RESOURCES</NavLink></li>
-         <li className='px-8 '><NavLink href="">CONTACT</NavLink></li>
-         <li className='px-8'><NavLink to={'/'}>ACCESS INVESTMENT</NavLink></li>
-         <li className='px-8'><NavLink href="">LOGIN</NavLink></li>
+      <nav className=''>
+        <ul className={`${openMenu ? "block w-full h-screen bg-green-400" : "hidden" } absolute   lg:relative right-0 top-0 lg:flex lg:flex-wrap font-bold text-gray-700 pt-20 lg:pt-0`}>
+          <li className='px-8 hover:bg-green-100 py-3'><NavLink>INVESTMENT</NavLink> </li>
+         <li className='px-8  hover:bg-green-100 py-3'><NavLink>BLOG</NavLink></li> 
+         <li className='px-8  hover:bg-green-100 py-3'><NavLink to="/">RESOURCES</NavLink></li>
+         <li className='px-8  hover:bg-green-100 py-3'><NavLink href="">CONTACT</NavLink></li>
+         <li className='px-8  hover:bg-green-100 py-3'><NavLink to={'/'}>ACCESS INVESTMENT</NavLink></li>
+         <li className='px-8  hover:bg-green-100 py-3'><NavLink href="">LOGIN</NavLink></li>
+         <span className='text-3xl lg:hidden block absolute top-10 right-5' onClick={()=> setOpenMenu((prev)=> !prev)}><GiHamburgerMenu /></span>
+
 
         </ul>
         <span className='text-3xl lg:hidden block' onClick={()=> setOpenMenu((prev)=> !prev)}><GiHamburgerMenu /></span>
