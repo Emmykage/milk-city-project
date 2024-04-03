@@ -145,6 +145,12 @@ const Home = () => {
           </div>
 
       </section>
+      <section>
+        <div className='max-w-6xl m-auto border p-6 flex'>
+          <h3 className='flex-1 text-left text-xl'>Start Exploring High Profit Potential<br/> Farmland Investments</h3>
+          <a href='/auth/login' className='border border-gray-600 p-6 hover:bg-green-100  font-semibold'>GET ACCESS NOW</a>
+          </div>
+      </section>
     
     <p className='font-mesium'></p></div>
   )
