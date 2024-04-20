@@ -7,6 +7,7 @@ import Banner from '../components/header/Banner'
 const MainLayout = ({children}) => {
 const location = useLocation()  
 const isHomeActive = location.pathname === '/'
+console.log(isHomeActive)
 return (
     <div className=''>
       {isHomeActive ? <Header/> : <Banner/>}

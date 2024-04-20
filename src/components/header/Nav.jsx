@@ -21,14 +21,14 @@ const Nav = () => {
       <a href="/" className='text-xl text-green-700'> MilkCity</a>
       <nav className=''>
         <ul className={`${openMenu ? "block w-full h-screen bg-green-400" : "hidden" } absolute   lg:relative right-0 top-0 lg:flex lg:flex-wrap font-bold text-gray-700 pt-20 lg:pt-0`}>
-        <li className='px-8 hover:bg-green-100 py-3'><NavLink to="investment">INVESTMENT</NavLink> </li>
+        <li className='px-8 hover:bg-green-100 py-3'><NavLink to="/investment">INVESTMENT</NavLink> </li>
         <li className='px-8  hover:bg-green-100 py-3'><NavLink>BLOG</NavLink></li> 
-        <li className='px-8  hover:bg-green-100 py-3'><NavLink to="/">RESOURCES</NavLink></li>
-        <li className='px-8  hover:bg-green-100 py-3'><NavLink href="">CONTACT</NavLink></li>
-        <li className='px-8  hover:bg-green-100 py-3'><NavLink href="">ABOUT US</NavLink></li>
-        <li className='px-8  hover:bg-green-100 py-3'><NavLink to="compliance_regulation">COMPLIANCE AND REGULATIONS</NavLink></li>
-        <li className='px-8  hover:bg-green-100 py-3'><NavLink to={'/'}>ACCESS INVESTMENT</NavLink></li>
-        <li className='px-8  hover:bg-green-100 py-3'><NavLink href="">LOGIN</NavLink></li>
+        <li className='px-8  hover:bg-green-100 py-3'><NavLink to="/resources">RESOURCES</NavLink></li>
+        <li className='px-8  hover:bg-green-100 py-3'><NavLink to="/contact">CONTACT</NavLink></li>
+        <li className='px-8  hover:bg-green-100 py-3'><NavLink to="/about_us">ABOUT US</NavLink></li>
+        <li className='px-8  hover:bg-green-100 py-3'><NavLink to="/compliance_regulation">COMPLIANCE AND REGULATIONS</NavLink></li>
+        <li className='px-8  hover:bg-green-100 py-3'><NavLink to={'/access_investment'}>ACCESS INVESTMENT</NavLink></li>
+        <li className='px-8  hover:bg-green-100 py-3'><NavLink to="">LOGIN</NavLink></li>
          <span className='text-3xl lg:hidden block absolute top-10 right-5' onClick={()=> setOpenMenu((prev)=> !prev)}><GiHamburgerMenu /></span>
 
 
