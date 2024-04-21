@@ -5,7 +5,7 @@ import MainLayout from './layout/MainLayout';
 import Investment from './pages/Investment';
 import Resouces from './pages/Resouces';
 import Contact from './pages/Contact';
-import ABOUT_US from './pages/ABOUT_US';
+import ABOUT_US from './pages/AboutUs';
 import ComplianceRegulation from './pages/ComplianceRegulation';
 import AccessInvestment from './pages/AccessInvestment';
 

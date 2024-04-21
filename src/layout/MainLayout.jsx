@@ -11,7 +11,7 @@ console.log(isHomeActive)
 return (
     <div className=''>
       {isHomeActive ? <Header/> : <Banner/>}
-     
+       {/* <Header/> */}
       
       <main>
         {children}

@@ -18,7 +18,14 @@ const Banner = ({children}) => {
             break;
         case '/resources':
           header = {HeaderBg, title: "Resources"}
-
+          break;
+        case '/about_us':
+            header = {HeaderBg, title: "About US"}
+  
+            break;   
+        case '/contact':
+            header = {HeaderBg, title: "Contact"}
+  
             break;
     
         default:
@@ -31,7 +38,7 @@ const Banner = ({children}) => {
         <Nav/>
         <header className='h-[600px] bg-black/40'>
           <img src={header.HeaderBg} alt="header" className='w-full h-full'  />
-          <div className='absolute top-0 w-full left-0 h-full z-10 flex items-center justify-center bg-black/40'>
+          <div className='absolute top-0 w-full left-0 h-full z-0 flex items-center justify-center bg-black/40'>
             <div>
             <h2 className='text-3xl font-bold'>          {header.title}</h2>
             <div className='flex gap-2 w-52 m-auto pt-9'>

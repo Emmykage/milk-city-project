@@ -30,6 +30,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+nav a:after{
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: green;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+nav a.active::after {
+  width: 100%;
+}
+a:hover::after {
+  width: 100%;
+}
+
 
 .App-link {
   color: #61dafb;
