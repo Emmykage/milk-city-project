@@ -24,7 +24,7 @@ const Nav = () => {
       <nav className=''>
         <ul className={`${openMenu ? "block w-full h-screen bg-green-400" : "hidden" } absolute   lg:relative right-0 top-0 lg:flex lg:flex-wrap font-bold text-gray-700 pt-20 lg:pt-0`}>
           <li className='px-8 py-3'><NavLink to="/investment">INVESTMENT</NavLink> </li>
-          {/* <li className='px-8  hover:bg-green-100 py-3'><NavLink>BLOG</NavLink></li>  */}
+          {/* <li className='px-8  hover:bg-green-100 py-3'><NavLink>Products</NavLink></li>  */}
           {/* <li className='px-8  hover:bg-green-100 py-3'><NavLink to="/resources">RESOURCES</NavLink></li> */}
           <li className='px-8  py-3'><NavLink to="/contact" className={({isActive}) => (isActive ? activeLink : normalLink)}>CONTACT</NavLink></li>
           <li className='px-8  py-3'><NavLink to="/about_us" className={({isActive}) => (isActive ? activeLink : normalLink)}>ABOUT US</NavLink></li>

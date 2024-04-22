@@ -5,7 +5,7 @@ const ABOUT_US = () => {
   return (
     <div className=' '>
       <section className='bg-green-900 h-72 m-auto'>      
-          <div className='max-w-7xl m-auto flex justify-center px-10'>
+          <div className='max-w-7xl m-auto flex flex-col md:flex-row justify-center px-10'>
             <div className='flex-1'>
               <h2 className='text-white text-6xl my-7'> FARMER <br/> OWNED.</h2>
               <p className='leading-6 text-sm text-white'>As a fourth-generation farmer, real estate investor and expert in farm management, our CEO, Brandon, takes extreme pride and care when it comes to selecting offerings for our investor
@@ -20,7 +20,7 @@ const ABOUT_US = () => {
       </section>
 
       <section>
-      <div className='flex justify-center max-w-7xl m-auto gap-6 px-8'>
+      <div className='flex flex-col md:flex-row justify-center max-w-7xl m-auto gap-6 px-8'>
         <div className=' text-center bg-red-0 max-w-xl w-full'>
           <h3 className='text-4xl my-10 px-6 leading-10 font-semibold'>MEET OUR CEO,<br/> CHUBA MENANYA</h3>
           <div className='m-auto'>
@@ -57,6 +57,43 @@ FarmFundr investors can rest assured they are gaining access to deals selected b
 invest in farmland without putting up huge amounts of capital."
         </p>
         <span className='italic text-white text-sm'>Brandon Silveira</span>
+      </section>
+
+      <section>
+        <div className='flex flex-col md:flex-row px-3 justify-between max-w-5xl m-auto gap-3 my-3'>
+          <div className='flex-1 bg-gray-200'></div>
+          <div className='flex-1'>
+            <h3 className='text-xl'> About Us:</h3>
+            <p className='text-justify text-sm text-gray-600 font-semibold'>
+              At Ag-Grow City Ltd, we are dedicated to revolutionizing the agricultural landscape by providing comprehensive solutions to farmers, agribusinesses, and 
+              consumers. With a rich heritage rooted in agriculture, we have evolved into a dynamic and forward-thinking company committed to sustainable practices and innovation.
+
+           </p>
+            <br />
+            <br />
+            <p className='text-sm text-gray-600 font-semibold'>
+                We are proud that diversity helps to drive our growth. We are fluent in local customs, cultures and languages with a diverse, multi-lingual team that closes the gap 
+                between farmers and customers wherever they may be. For more than 6 years, we have partnered with companies that share our values and continue to settle for 
+                nothing less than the best.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className='py-7'>
+        <div className='max-w-4xl m-auto'>
+          <h3 className='text-lg text-gray-700 font-semibold'> Vision:</h3>
+          <p className='text-sm text-gray-600 font-medium px-8 leading-8'>
+          Our vision is to empower agricultural communities globally, ensuring food security, economic prosperity, and environmental sustainability for future 
+          generations. We strive to be leaders in agricultural excellence, setting new standards of innovation, efficiency, and ethical stewardship.
+          </p>
+       <h3 className='text-lg text-gray-700 font-semibold mt-8'>Mission:</h3>
+        <p className='text-sm text-gray-600 font-medium px-8 leading-8'>
+          Our mission is to harness the power of agriculture to create value for all stakeholders involved. Through cutting-edge technologies, strategic partnerships,
+          and a deep understanding of market dynamics, we aim to optimize every aspect of the agricultural value chain. We are dedicated to fostering growth, resilience, and 
+          prosperity within the agricultural sector.
+        </p>
+ 
+        </div>
       </section>
 
       <section>
