@@ -21,7 +21,7 @@ const ABOUT_US = () => {
 
       <section>
       <div className='flex flex-col md:flex-row justify-center max-w-7xl m-auto gap-6 px-8'>
-        <div className=' text-center bg-red-0 max-w-xl w-full'>
+        <div className=' text-center bg-red-0 max-w-xl w-full flex-1'>
           <h3 className='text-4xl my-10 px-6 leading-10 font-semibold'>MEET OUR CEO,<br/> CHUBA MENANYA</h3>
           <div className='m-auto'>
           <img src="#" alt="ceo" className='h-80 w-full bg-gray-200' />
@@ -52,7 +52,7 @@ FarmFundr investors can rest assured they are gaining access to deals selected b
       </section>
 
       <section className='bg-green-900 py-14 my-6'>
-        <p className='max-w-4xl m-auto text-white italic '>
+        <p className='max-w-4xl m-auto text-white italic px-4'>
         "I saw a need to offer people the opportunity to
 invest in farmland without putting up huge amounts of capital."
         </p>
