@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const Login = () => {
+const PasswordRecover = () => {
   return (
     <section className="h-screen bg-neutral-200 dark:bg-neutral-700">
       <div className="container h-full p-10 m-auto">
@@ -14,15 +14,15 @@ const Login = () => {
                   <div className="md:mx-6 md:p-12">
                     {/* <!--Logo--> */}
                     <div className="text-center">
-                      <NavLink to={'/'}>
+                        <NavLink to={'/'}>
+
                       <img
                         className="mx-auto w-48"
                         src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
                         alt="logo"
                       />
-
+                      
                       </NavLink>
-                 
                       <h4 className="mb-12 mt-1 pb-1 text-xl font-semibold">
                         We are The Lotus Team
                       </h4>
@@ -30,7 +30,7 @@ const Login = () => {
 
                     <form>
 
-                      <p className="mb-4">Please login to your account</p>
+                      <p className="mb-4">Request Password Reset</p>
                       {/* <!--Username input--> */}
 
                       <div className='w-full text-left'>
@@ -42,19 +42,12 @@ const Login = () => {
                       />
 
                       </div>
-                      <div className='text-left'>
-                        <label htmlFor="password">Password</label>
-                        <input
-                        type="password"
-                        label="Password"
-                        className="mb-4 border w-full py-3 px-2"
-                      />
-                      </div>
+                     
                       {/* <!--Password input--> */}
                    
                       {/* <!--Submit button--> */}
                       <div className="mb-12 pb-1 pt-1 text-center">
-                          <button
+                          <NavLink to={'/'}
                             className="mb-3 inline-block w-full rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_rgba(0,0,0,0.2)] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)]"
                             type="button"
                             style={{
@@ -62,11 +55,10 @@ const Login = () => {
                                 "linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593)",
                             }}
                           >
-                            Log in
-                          </button>
+                            Reset Password
+                          </NavLink>
 
-                        {/* <!--Forgot password link--> */}
-                        <NavLink to="/auth/password_reset">Forgot password?</NavLink>
+
                       </div>
 
                       {/* <!--Register button--> */}
@@ -111,4 +103,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default PasswordRecover

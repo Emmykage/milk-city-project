@@ -8,6 +8,9 @@ import Contact from './pages/Contact';
 import ABOUT_US from './pages/AboutUs';
 import ComplianceRegulation from './pages/ComplianceRegulation';
 import AccessInvestment from './pages/AccessInvestment';
+import Login from './pages/auth/Login';
+import Register from './pages/auth/Register';
+import PasswordRecover from './pages/auth/PasswordRecover';
 
 function App() {
   return (
@@ -26,6 +29,12 @@ function App() {
       <Route path='/about_us' element={ <MainLayout><ABOUT_US/> </MainLayout>}/>
       <Route path='/compliance_regulation' element={ <MainLayout><ComplianceRegulation/> </MainLayout>}/>
       <Route path='/access_investment' element={ <MainLayout><AccessInvestment/> </MainLayout>}/>
+      <Route path='/auth' >
+      <Route path='login' element={ <Login/> }/>
+      <Route path='register' element={ <Register/> }/>
+      <Route path='password_reset' element={ <PasswordRecover/> }/>
+
+      </Route>
 
 
     </Routes>

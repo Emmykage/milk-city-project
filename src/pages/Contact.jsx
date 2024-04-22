@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
       <section>
-        <div className='flex'>
+        <div className='flex flex-col md:flex-row'>
         <a href="tel:+2348064412072" className='flex-1 flex justify-center items-center py-10 shadow hover:bg-gray-100'>
           <div className=''>
             <span className=' bg-black w-14 h-14 inline-flex justify-center items-center rounded-full'>
