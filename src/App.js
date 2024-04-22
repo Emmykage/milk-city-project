@@ -11,6 +11,11 @@ import AccessInvestment from './pages/AccessInvestment';
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import PasswordRecover from './pages/auth/PasswordRecover';
+import UserLayout from './layout/UserLayout';
+import Portfolio from './pages/dashboard/Portfolio';
+import Account from './pages/dashboard/Account';
+import Document from './pages/dashboard/Document';
+import Offering from './pages/dashboard/Offering';
 
 function App() {
   return (
@@ -29,6 +34,10 @@ function App() {
       <Route path='/about_us' element={ <MainLayout><ABOUT_US/> </MainLayout>}/>
       <Route path='/compliance_regulation' element={ <MainLayout><ComplianceRegulation/> </MainLayout>}/>
       <Route path='/access_investment' element={ <MainLayout><AccessInvestment/> </MainLayout>}/>
+      <Route path='/dashboard/portfolio' element={<UserLayout><Portfolio/> </UserLayout>}> </Route>
+      <Route path='/dashboard/account' element={<UserLayout><Account/> </UserLayout>}> </Route>
+      <Route path='/dashboard/document' element={<UserLayout><Document/> </UserLayout>}> </Route>
+      <Route path='/dashboard/offering' element={<UserLayout><Offering/> </UserLayout>}> </Route>
       <Route path='/auth' >
       <Route path='login' element={ <Login/> }/>
       <Route path='register' element={ <Register/> }/>
