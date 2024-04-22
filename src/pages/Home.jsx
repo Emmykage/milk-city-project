@@ -1,7 +1,6 @@
 import React from 'react'
 import Earth from '../assets/images/icons/planet-earth.png'
 import Button from '../components/buttons/Button'
-import Header from '../components/header/Header'
 
 const Home = () => {
   return (
@@ -10,7 +9,7 @@ const Home = () => {
       <section className='px-2 py-20 farmBg'>
         <h2 className='text-center text-3xl'>HOW IT WORKS</h2>
         <div>
-          <p className='px-48 font-semibold text-base text-gray-900 leading-6'>MilkCity is a farmer-owned, equity crowdfunding platform focused on specialty crop operations in the United States. We offer fractional farmland ownership opportunities to our members.</p>
+          <p className='px-3 lg:px-48 font-semibold text-base text-gray-900 leading-6'>MilkCity is a farmer-owned, equity crowdfunding platform focused on specialty crop operations in the United States. We offer fractional farmland ownership opportunities to our members.</p>
           <div className='px-3 sm:px-10 max-w-6xl m-auto grid sm:grid-cols-2 lg:grid-cols-4 pt-8 pb-20 mt-10 gap-[3%] lg:px-5'>
             <div className='bg-gray-50 relative py-10 px-5 rounded'> 
               <span className='absolute -top-10 left-1/2 -translate-x-1/2 m-auto flex h-20 w-20 justify-center items-center rounded-full bg-green-950 text-white text-xl'> 1</span>
@@ -48,47 +47,47 @@ const Home = () => {
         <span className='border border-black flex w-20 h-20 rounded-full justify-center items-center'>3</span>
     
         </div>
-        <div className='max-w-4xl m-auto grid lg:grid-cols-2 gap-[3%] px-4 py-8'>
-          <div className='px-10 flex gap-3'>
-            <span className=' flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
+        <div className='max-w-4xl m-auto grid lg:grid-cols-2 gap-[3%] px-3 py-8'>
+          <div className='lg:px-10 px-3 flex gap-0'>
+            <span className=' flex items-center justify-center bg-slate-600 h-16 w-16  rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg my-4'>AN INDUSTRY THAT MATTERS</h4>
-              <p className='text-gray-600 text-sm px-3 leading-6'>Ownership in a farm operation allows investors to learn about the many aspects that go into a real working farm and the hard work that goes into feeding the world.</p>
+              <h4 className='text-lg mb-4'>DEMAND FOR FOOD</h4>
+              <p className='text-gray-600 text-sm px-3 leading-6'>By 2050 the world population will grow to over 10 billion people. An additional 3 billion people will enter the middle class causing food demand to sky rocket.</p>
             </div>
           </div>
-          <div className='px-10 flex gap-3'>
+          <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg my-4'>AN INDUSTRY THAT MATTERS</h4>
-              <p className='text-gray-600 text-sm px-3 leading-6'>Ownership in a farm operation allows investors to learn about the many aspects that go into a real working farm and the hard work that goes into feeding the world.</p>
+              <h4 className='text-lg mb-4'>MORE STABILITY THAN THE STOCK MARKET</h4>
+              <p className='text-gray-600 text-sm px-3 leading-6'>Since farmland is uncorrelated with most other major asset classes, it has proven to perform well during challenging economic conditions.</p>
             </div>
           </div>
-          <div className='px-10 flex gap-3'>
+          <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg my-4'>AN INDUSTRY THAT MATTERS</h4>
-              <p className='text-gray-600 text-sm px-3 leading-6'>Ownership in a farm operation allows investors to learn about the many aspects that go into a real working farm and the hard work that goes into feeding the world.</p>
+              <h4 className='text-lg mb-4'>THEY'RE NOT MAKING ANY MORE LAND</h4>
+              <p className='text-gray-600 text-sm px-3 leading-6'>The U.S. alone loses almost 500,000 acres of farmland a year. That’s a loss of nearly 15,000,000 acres of farmland by 2050.</p>
             </div>
           </div>
-          <div className='px-10 flex gap-3'>
+          <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg my-4'>AN INDUSTRY THAT MATTERS</h4>
-              <p className='text-gray-600 text-sm px-3 leading-6'>Ownership in a farm operation allows investors to learn about the many aspects that go into a real working farm and the hard work that goes into feeding the world.</p>
+              <h4 className='text-lg mb-4'>LONG TERM INVESTMENT STRATEGY</h4>
+              <p className='text-gray-600 text-sm px-3 leading-6'>Farmland is an attractive, long-term investment that has the potential to provide  relative resiliency to challenging economic conditions.</p>
             </div>
           </div>
-          <div className='px-10 flex gap-3'>
+          <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg my-4'>AN INDUSTRY THAT MATTERS</h4>
-              <p className='text-gray-600 text-sm px-3 leading-6'>Ownership in a farm operation allows investors to learn about the many aspects that go into a real working farm and the hard work that goes into feeding the world.</p>
+              <h4 className='text-lg mb-4'>HEDGE AGAINST INFLATION</h4>
+              <p className='text-gray-600 text-sm px-3 leading-6'>Over time, farmland has proven to have a positive correlation with inflation. More so than bonds, the stock market, and even gold. On average, no investment offers a hedge against inflation like farmland.</p>
             </div>
           </div>
-          <div className='px-10 flex gap-3'>
+          <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1 '>
-              <h4 className='text-lg my-4'>AN INDUSTRY THAT MATTERS</h4>
-              <p className='text-gray-600 text-sm px-3 leading-6'>Ownership in a farm operation allows investors to learn about the many aspects that go into a real working farm and the hard work that goes into feeding the world.</p>
+              <h4 className='text-lg mb-0'>AN INDUSTRY THAT MATTERS</h4>
+              <p className='text-gray-600 text-sm px-0 leading-6'>Ownership in a farm operation allows investors to learn about the many aspects that go into a real working farm and the hard work that goes into feeding the world.</p>
             </div>
           </div>
           
@@ -145,6 +144,12 @@ const Home = () => {
 
           </div>
 
+      </section>
+      <section>
+        <div className='max-w-6xl m-auto border p-6 flex'>
+          <h3 className='flex-1 text-left text-xl'>Start Exploring High Profit Potential<br/> Farmland Investments</h3>
+          <a href='/auth/login' className='border border-gray-600 p-6 hover:bg-green-100  font-semibold'>GET ACCESS NOW</a>
+          </div>
       </section>
     
     <p className='font-mesium'></p></div>
