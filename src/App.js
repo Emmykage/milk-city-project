@@ -19,21 +19,15 @@ import Offering from './pages/dashboard/Offering';
 
 function App() {
   return (
-    <div className='App relative min-h-screen font-poppins'>
+    <div className='App relative h-screen font-poppins overflow-y-auto'>
       <Routes>      
-        {/* <Route path='/' element={ <MainLayout/>}>
-          <Route index element={<Home/>}/>
-          <Route path='investment' element={<Investment/>}/>
-          
-        </Route> */}
-
       <Route path='/' element={ <MainLayout><Home/> </MainLayout>}/>
       <Route path='/investment' element={ <MainLayout><Investment/> </MainLayout>}/>
       <Route path='/resources' element={ <MainLayout><Resouces/> </MainLayout>}/>
       <Route path='/contact' element={ <MainLayout><Contact/> </MainLayout>}/>
       <Route path='/about_us' element={ <MainLayout><ABOUT_US/> </MainLayout>}/>
       <Route path='/compliance_regulation' element={ <MainLayout><ComplianceRegulation/> </MainLayout>}/>
-      <Route path='/access_investment' element={ <MainLayout><AccessInvestment/> </MainLayout>}/>
+      <Route path='/access_investment' element={ <MainLayout><AccessInvestment/> </MainLayout>}/>    
       <Route path='/dashboard/portfolio' element={<UserLayout><Portfolio/> </UserLayout>}> </Route>
       <Route path='/dashboard/account' element={<UserLayout><Account/> </UserLayout>}> </Route>
       <Route path='/dashboard/document' element={<UserLayout><Document/> </UserLayout>}> </Route>

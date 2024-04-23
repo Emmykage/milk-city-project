@@ -29,7 +29,7 @@ const Nav = () => {
           <li className='px-8  py-3'><NavLink to="/contact" className={({isActive}) => (isActive ? activeLink : normalLink)}>CONTACT</NavLink></li>
           <li className='px-8  py-3'><NavLink to="/about_us" className={({isActive}) => (isActive ? activeLink : normalLink)}>ABOUT US</NavLink></li>
           <li className='px-8  py-3'><NavLink to="/compliance_regulation" className={({isActive}) => (isActive ? activeLink : normalLink)}>COMPLIANCE AND REGULATIONS</NavLink></li>
-          <li className='px-8  py-3'><NavLink to={'/access_investment'} className={({isActive}) => (isActive ? activeLink : normalLink)}>ACCESS INVESTMENT</NavLink></li>
+          <li className='px-8  py-3'><NavLink to={'/dashboard/portfolio'} className={({isActive}) => (isActive ? activeLink : normalLink)}>ACCESS INVESTMENT</NavLink></li>
           <li className='px-8  py-3'><NavLink to="/auth/login">LOGIN</NavLink></li>
          <span className='text-3xl lg:hidden block absolute top-10 right-5' onClick={()=> setOpenMenu((prev)=> !prev)}><GiHamburgerMenu /></span>
 
