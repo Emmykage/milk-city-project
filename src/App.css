@@ -50,6 +50,25 @@ a:hover::after {
   color: #61dafb;
 }
 
+.portfolio ul li a::after{
+  text-decoration: underline;
+  content: "";
+  height: 2px;
+  display: block;
+  width: 0%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(104, 104, 104);
+  transition: width 0.3s ease-in;
+
+
+}
+.portfolio ul li a.active::after, .portfolio ul li a:hover::after{
+
+  width: 100%;
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
