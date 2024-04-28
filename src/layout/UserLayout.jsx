@@ -26,7 +26,7 @@ const UserLayout = ({children}) => {
         </header>
         
         <div className='flex bg-green-20 flex-1'>
-            <aside className='w-72 shadow h-full'>
+            <aside className='w-20 shadow h-full'>
                 <a href="/account">Accounts</a>
             </aside>
 
