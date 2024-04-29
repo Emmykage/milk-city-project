@@ -50,7 +50,7 @@ a:hover::after {
   color: #61dafb;
 }
 
-.portfolio ul li a::after{
+.portfolio ul li a::after, .account ul li a::after{
   text-decoration: underline;
   content: "";
   height: 2px;
@@ -63,7 +63,7 @@ a:hover::after {
 
 
 }
-.portfolio ul li a.active::after, .portfolio ul li a:hover::after{
+.portfolio ul li a.active::after, .account ul li a.active::after, .portfolio ul li a:hover::after, .account ul li a:hover::after{
 
   width: 100%;
 

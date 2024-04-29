@@ -19,6 +19,9 @@ import Offering from './pages/dashboard/Offering';
 import AccountInvestment from './components/user/Investment';
 import History from './components/user/History';
 import Pending from './components/user/Pending';
+import Identity from './components/user/Identity';
+import Profile from './components/user/Profile';
+import PaymentMethods from './components/user/PaymentMethods';
 
 function App() {
   return (
@@ -38,7 +41,9 @@ function App() {
         
       </Route>
       <Route path='/dashboard/account' element={<UserLayout><Account/> </UserLayout>}> 
-      
+      <Route path='identity' element={<Identity/>}/>
+      <Route path='profile' element={<Profile/>}/>
+      <Route path='payment-method' element={<PaymentMethods/>}/>
       </Route>
       <Route path='/dashboard/document' element={<UserLayout><Document/> </UserLayout>}> </Route>
       <Route path='/dashboard/offering' element={<UserLayout><Offering/> </UserLayout>}> </Route>

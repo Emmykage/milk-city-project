@@ -6,8 +6,8 @@ import { NavLink } from 'react-router-dom'
 
 const UserLayout = ({children}) => {
   return (
-    <div className='h-full flex flex-col'>
-        <header className='flex justi py-10 shadow px-2 md:px-10 items-center'>
+    <div className='h-full flex flex-col bg-gray-200 overflow-y-auto'>
+        <header className='bg-white flex justi py-10 shadow px-2 md:px-10 items-center border-b'>
             <NavLink to={'/'} className={'px-2 w-52 text-3xl text-green-700 font-semibold'}>MMPC</NavLink>
                 <nav className='flex-1'>
                     <ul className='flex gap-6 text-sm font-medium text-gray-600'>
@@ -26,7 +26,7 @@ const UserLayout = ({children}) => {
         </header>
         
         <div className='flex bg-green-20 flex-1'>
-            <aside className='w-20 shadow h-full'>
+            <aside className='w-20 shadow h-full bg-white border-t'>
                 <a href="/account">Accounts</a>
             </aside>
 
