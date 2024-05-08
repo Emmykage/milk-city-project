@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import photo from '../../assets/images/pictures/handsake.jpg'
 const Offering = () => {
   return (
-    <div className='max-w-7xl w-full m-auto bg--400 py-8'>
+    <div className='max-w-7xl w-full m-auto bg--400 py-8 bg-white my-3 rounded-md px-4 md:px-10'>
         <h2 className='text-left text-2xl font-medium text-gray-700'>
         Farmland Investment Offerings
 

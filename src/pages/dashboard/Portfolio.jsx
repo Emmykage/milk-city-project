@@ -13,7 +13,7 @@ const Portfolio = () => {
       <li className='relative border-b py-2'><NavLink className={({isActive}) => (isActive ? activeLink : inactiveLink)} to="/dashboard/portfolio/pending">PENDING TRANSACTIONS</NavLink> </li>
       <li className='relative border-b py-2'><NavLink className={({isActive}) => (isActive ? activeLink : inactiveLink)} to="/dashboard/portfolio/history">TRANSACTION HISTORY</NavLink> </li>
       </ul>
-      <div className='min-h-96 shadow my-4 p-4'>
+      <div className='min-h-96 shadow my-4 p-4 bg-white rounded-md'>
               <Outlet/>
 
 

@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Nav = () => {
   const activeLink = "active"
   const normalLink = ""
-  const [stickyNav, setStickyNav] = useState('bg-gray-100/50 absolute')
+  const [stickyNav, setStickyNav] = useState('bg-gray-100 absolute')
   const [openMenu, setOpenMenu] = useState(false)
   const handleStickNav = () => {
     if(window.scrollY >= 120){

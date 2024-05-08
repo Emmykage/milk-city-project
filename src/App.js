@@ -22,6 +22,7 @@ import Pending from './components/user/Pending';
 import Identity from './components/user/Identity';
 import Profile from './components/user/Profile';
 import PaymentMethods from './components/user/PaymentMethods';
+import Loader from './components/loader/Loader';
 
 function App() {
   return (
@@ -56,6 +57,8 @@ function App() {
 
 
     </Routes>
+      {/* <Loader/> */}
+    
     </div>
      );
 }
