@@ -23,8 +23,11 @@ import Identity from './components/user/Identity';
 import Profile from './components/user/Profile';
 import PaymentMethods from './components/user/PaymentMethods';
 import Loader from './components/loader/Loader';
+import TransitionsModal from './components/Modal';
+import { useSelector } from 'react-redux';
 
 function App() {
+  const {loader} = useSelector(state => state.app)
   return (
     <div className='App relative h-screen font-poppins overflow-y-auto'>
       <Routes>      
@@ -57,7 +60,8 @@ function App() {
 
 
     </Routes>
-      {/* <Loader/> */}
+    {loader &&  <Loader/> }
+      <TransitionsModal/>
     
     </div>
      );
