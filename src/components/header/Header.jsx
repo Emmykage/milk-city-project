@@ -17,7 +17,7 @@ const Header = () => {
             <div className='bg-gray-100/50 max-w-4xl text-center items-center' >
               <p className='text-4xl font-medium text-white p-5'>
 
-              HIGH PROFIT POTENTIAL FARMLAND INVESTMENTS MANAGED BY EXPERT AMERICAN FARMERS
+              HIGH PROFIT POTENTIAL FARMLAND INVESTMENTS MANAGED BY EXPERT NIGERIAN FARMERS
               </p>
               <div className='inline-block'>
               <Button link={"/access_investment"} >Click to Explore Available Investments</Button>

@@ -29,7 +29,7 @@ const Contact = () => {
           <p className='text-sm font-medium text-gray-600 my-4'> 
            MAILING ADDRESS
             </p>
-            <p>No 1 Kandi Close Wuse Zone 2 Off Aminu Kano Crescent</p>
+            <p>Plot 578 Idris Gidado Street Wuye Abuja</p>
             </div>
 
           </a>

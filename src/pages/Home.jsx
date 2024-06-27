@@ -47,7 +47,7 @@ const Home = () => {
         <span className='border border-black flex w-20 h-20 rounded-full justify-center items-center'>3</span>
     
         </div>
-        <div className='max-w-4xl m-auto grid lg:grid-cols-2 gap-[3%] px-3 py-8'>
+        <div className='max-w-7xl m-auto grid lg:grid-cols-3 gap-[3%] px-3 py-8'>
           <div className='lg:px-10 px-3 flex gap-0'>
             <span className=' flex items-center justify-center bg-slate-600 h-16 w-16  rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
@@ -62,32 +62,120 @@ const Home = () => {
               <p className='text-gray-600 text-sm px-3 leading-6'>Since farmland is uncorrelated with most other major asset classes, it has proven to perform well during challenging economic conditions.</p>
             </div>
           </div>
+          {/* <div className='lg:px-10 px-3 flex gap-3'>
+            <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
+            <div className='flex-1'>
+              <h4 className='text-lg mb-4'>Community and Local Economy Support</h4>
+              <p className='text-gray-600 text-sm px-3 leading-6'>Local Business Growth: Investing in a cooperative supports local farmers and 
+              producers, helping to sustain local economies</p>
+
+              <p className='text-gray-600 text-sm px-3 leading-6'>
+              Job Creation: Co-ops often create local employment opportunities, contributing to 
+              community development.
+              </p>
+            </div>
+          </div> */}
           <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg mb-4'>THEY'RE NOT MAKING ANY MORE LAND</h4>
-              <p className='text-gray-600 text-sm px-3 leading-6'>The U.S. alone loses almost 500,000 acres of farmland a year. That’s a loss of nearly 15,000,000 acres of farmland by 2050.</p>
+              <h4 className='text-lg mb-4'>Ethical and Sustainable Practices</h4>
+              <p className='text-gray-600 text-sm px-3 leading-6'>Sustainable Agriculture: Many cooperatives prioritize sustainable farming practices, 
+which can lead to long-term environmental benefits.
+</p>
+<p  className='text-gray-600 text-sm px-3 leading-6'>
+Animal Welfare: Co-ops often implement higher standards for animal welfare 
+compared to industrial farming operations.
+
+</p>
             </div>
+          </div>
+         
+          
+          <div className='lg:px-10 px-3 flex gap-3'>
+            <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
+            <div className='flex-1'>
+              <h4 className='text-lg mb-4'>Product Quality
+
+              </h4>
+              <p className='text-gray-600 text-sm px-3 leading-6'>High-Quality Products: Cooperatives often focus on producing high-quality meat 
+and dairy products, which can lead to better market positioning and customer loyalty.
+</p>
+
+{/* <p>
+
+ Traceability: Products from co-ops are often more traceable, appealing to consumer who value knowing the source of their food.</p> */}
+            </div>
+          </div>
+        
+          <div className='lg:px-10 px-3 flex gap-3'>
+            <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
+            <div className='flex-1'>
+              <h4 className='text-lg mb-4'>Economic Diversification
+
+
+              </h4>
+              <p className='text-gray-600 text-sm px-3 leading-6'>Risk Mitigation: Investing in a cooperative can diversify your investment portfolio, 
+reducing risk by not being overly reliant on traditional financial markets.
+
+</p>
+
+{/* <p>
+
+Resilient Investment: Co-ops can be more resilient to economic fluctuations due to 
+their community-based support and focus on essential goods.
+</p>       */}
+      </div>
           </div>
           <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg mb-4'>LONG TERM INVESTMENT STRATEGY</h4>
-              <p className='text-gray-600 text-sm px-3 leading-6'>Farmland is an attractive, long-term investment that has the potential to provide  relative resiliency to challenging economic conditions.</p>
-            </div>
+              <h4 className='text-lg mb-4'>Innovation and Growth Potential
+
+
+              </h4>
+              <p className='text-gray-600 text-sm px-3 leading-6'>Innovative Practices: Co-ops may adopt innovative farming and production 
+techniques, increasing efficiency and profitability.
+
+
+</p>
+
+{/* <p>
+Expansion Opportunities: As consumer demand for ethically produced food grows, 
+co-ops have significant potential for expansion and increased market share.
+
+</p>          */}
+   </div>
           </div>
           <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1'>
-              <h4 className='text-lg mb-4'>HEDGE AGAINST INFLATION</h4>
-              <p className='text-gray-600 text-sm px-3 leading-6'>Over time, farmland has proven to have a positive correlation with inflation. More so than bonds, the stock market, and even gold. On average, no investment offers a hedge against inflation like farmland.</p>
-            </div>
+              <h4 className='text-lg mb-4'>Social Impact
+
+
+
+              </h4>
+              <p className='text-gray-600 text-sm px-3 leading-6'>Community Building: Investing in a cooperative fosters a sense of community and 
+              collective effort, promoting social cohesion
+
+
+</p>
+
+{/* <p>Educational Opportunities: Co-ops often provide educational resources and training 
+for members and the community, enhancing local knowledge and skills.
+
+</p>           */}
+  </div>
           </div>
           <div className='lg:px-10 px-3 flex gap-3'>
             <span className='flex items-center justify-center bg-slate-600 h-16 w-16 rounded-full' ><img src={Earth} width={40} height={60} alt="earth globe" /></span>
             <div className='flex-1 '>
               <h4 className='text-lg mb-0'>AN INDUSTRY THAT MATTERS</h4>
-              <p className='text-gray-600 text-sm px-0 leading-6'>Ownership in a farm operation allows investors to learn about the many aspects that go into a real working farm and the hard work that goes into feeding the world.</p>
+              <p className='text-gray-600 text-sm px-0 leading-6'>Member Dividends: As a member of the cooperative, you might receive dividends 
+              based on the co-op’s profits, offering a potential return on your investment</p>
+              {/* <p className='text-gray-600 text-sm px-0 leading-6'>
+              Equitable Returns: Profits are typically distributed among members, ensuring fair 
+              returns and reducing income inequality
+              </p> */}
             </div>
           </div>
           

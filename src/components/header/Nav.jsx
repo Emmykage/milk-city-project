@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { GiHamburgerMenu } from "react-icons/gi";
+import logo from '../../assets/images/logos/milk-and-milk-city-high-resolution-logo-transparent.png'
 
 const Nav = () => {
   const activeLink = "active"
@@ -19,8 +20,8 @@ const Nav = () => {
     window.addEventListener('scroll', handleStickNav)
   }, [])
   return (
-    <div className={`${stickyNav} text-center flex items-center justify-between px-6 lg:px-14 py-10  top-0 left-0 w-full z-20 `}>
-      <a href="/" className='text-xl text-green-700'> MilkCity</a>
+    <div className={`${stickyNav} text-center flex items-center justify-between px-6 lg:px-14 py-6  top-0 left-0 w-full z-20 `}>
+      <a href="/" className='text-xl text-green-700 w-28'  > <img src={logo} alt="logo" className='w-full'/></a>
       <nav className=''>
         <ul className={`${openMenu ? "block w-full h-screen bg-green-400" : "hidden" } absolute   lg:relative right-0 top-0 lg:flex lg:flex-wrap font-bold text-gray-700 pt-20 lg:pt-0`}>
           <li className='px-8 py-3'><NavLink to="/investment">INVESTMENT</NavLink> </li>
