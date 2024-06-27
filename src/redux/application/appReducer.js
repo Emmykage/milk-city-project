@@ -1,28 +1,27 @@
-import { createSlice } from "@reduxjs/toolkit"
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-    loader: false,
-    isModalOpen: false
-}
+  loader: false,
+  isModalOpen: false,
+};
 
 const appSlice = createSlice({
-    name: "application",
-    initialState,
-    reducers: {
-        toggleModal: (state, action) => {
-            console.log("first")
-            return{
-                ...state,
-                isModalOpen: action.payload
-            }
+  name: 'application',
+  initialState,
+  reducers: {
+    toggleModal: (state, action) => {
+      console.log('first');
+      return {
+        ...state,
+        isModalOpen: action.payload,
+      };
+    },
+    set_loader: (state, action) => ({
+      ...state,
+      loader: action.payload,
+    }),
+  },
+});
 
-        },
-        set_loader: (state, action) => ({
-            ...state,
-            loader: action.payload
-        })
-    }
-})
-
-export const { toggleModal} = appSlice.actions
-export default appSlice.reducer
+export const { toggleModal } = appSlice.actions;
+export default appSlice.reducer;

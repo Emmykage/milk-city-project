@@ -1,12 +1,11 @@
-import { createAsyncThunk } from "@reduxjs/toolkit"
-import axios from "axios"
-import { baseUrl } from "../baseUrl"
+import { createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
+import { baseUrl } from '../baseUrl';
 
-const createTransaction =  createAsyncThunk ('transaction/create', async()=> {
-    const response = await axios.post(baseUrl+"/transactions")
- 
-    return response
- 
- })
+const createTransaction = createAsyncThunk('transaction/create', async () => {
+  const response = await axios.post(`${baseUrl}/transactions`);
 
- export {createTransaction}
+  return response;
+});
+
+export { createTransaction };

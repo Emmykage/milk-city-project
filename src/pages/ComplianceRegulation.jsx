@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const ComplianceRegulation = () => {
-  return (
-    <div>Compliance_Regulation</div>
-  )
-}
+const ComplianceRegulation = () => (
+  <div>Compliance_Regulation</div>
+);
 
-export default ComplianceRegulation
+export default ComplianceRegulation;

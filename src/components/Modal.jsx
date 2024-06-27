@@ -21,12 +21,12 @@ const style = {
 };
 
 export default function TransitionsModal() {
-    const dispatch = useDispatch()
-const {isModalOpen} = useSelector(state => state.app)
-//   const [open, setOpen] = React.useState(false);
-  const handleOpen = () =>  dispatch(toggleModal(true));
+  const dispatch = useDispatch();
+  const { isModalOpen } = useSelector((state) => state.app);
+  //   const [open, setOpen] = React.useState(false);
+  const handleOpen = () => dispatch(toggleModal(true));
   const handleClose = () => dispatch(toggleModal(false));
-  console.log(isModalOpen)
+  console.log(isModalOpen);
 
   return (
     <div>
