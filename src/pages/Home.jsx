@@ -203,7 +203,7 @@ for members and the community, enhancing local knowledge and skills.
             <h4 className="text-xl">Milk Profit</h4>
             <p className="leading-6">Receive profits when crops are harvested and sold, in most cases, annually</p>
           </div>
-          <div className="flex-1 px-4 border py-10 w-full">
+          <div className="flex-1 px-4 border py-10 w-full bg-card-img">
             <h4 className="text-xl"> OWN THE LAND </h4>
             <p className="leading-6">
               At the end of the investment's holding period , investors will realize profits from the appreciation of the land.

@@ -23,5 +23,5 @@ const appSlice = createSlice({
   },
 });
 
-export const { toggleModal } = appSlice.actions;
+export const { toggleModal, set_loader } = appSlice.actions;
 export default appSlice.reducer;

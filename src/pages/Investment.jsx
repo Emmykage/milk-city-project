@@ -8,7 +8,7 @@ const Investment = () => (
   <div>
     <section className="py-8">
       <div className="w-full md:px-20 auto grid md:grid-cols-5 gap-3 overflow-x-auto px-4 text-left">
-        <div className="w-[300px] ">
+        <div className="">
           <img src={areaview} alt="" className="w-full h-40" />
           <div className="pt-6">
             <h4 className="text-lg font-semibold">Dairy Farming  </h4>
@@ -34,7 +34,7 @@ const Investment = () => (
 
           </div>
         </div>
-        <div className="w-[300px] ">
+        <div className="">
           <img src={areaview2} alt="" className="w-full h-40" />
 
           <div className="pt-6">
@@ -62,7 +62,7 @@ const Investment = () => (
           </div>
 
         </div>
-        <div className="w-[300px] ">
+        <div className="">
           <img src={areaview3} alt="" className="w-full h-40" />
 
           <div className="pt-6">
@@ -89,7 +89,7 @@ const Investment = () => (
           </div>
 
         </div>
-        <div className="w-[300px] ">
+        <div className="">
           <img src={areaview3} alt="" className="w-full h-40" />
           <div className="pt-6">
             <h4 className="text-lg font-semibold">Sheep Farming    </h4>
@@ -117,7 +117,7 @@ const Investment = () => (
           </div>
 
         </div>
-        <div className="w-[300px] ">
+        <div className="">
           <img src={areaview3} alt="" className="w-full h-40" />
           <div className="pt-6">
             <h4 className="text-lg font-semibold">Pig Farming    </h4>
