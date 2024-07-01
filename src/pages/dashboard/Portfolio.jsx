@@ -10,15 +10,15 @@ const Portfolio = () => {
 
       <ul className="flex mt-8">
         <li className="relative border-b py-2">
-          <NavLink className={({ isActive }) => (isActive ? activeLink : inactiveLink)} to="/dashboard/portfolio/investments">INVESTMENTS</NavLink>
+          {/* <NavLink className={({ isActive }) => (isActive ? activeLink : inactiveLink)} to="/dashboard/portfolio/investments">INVESTMENTS</NavLink> */}
           {' '}
         </li>
         <li className="relative border-b py-2">
-          <NavLink className={({ isActive }) => (isActive ? activeLink : inactiveLink)} to="/dashboard/portfolio/pending">PENDING TRANSACTIONS</NavLink>
+          {/* <NavLink className={({ isActive }) => (isActive ? activeLink : inactiveLink)} to="/dashboard/portfolio/pending">PENDING TRANSACTIONS</NavLink> */}
           {' '}
         </li>
         <li className="relative border-b py-2">
-          <NavLink className={({ isActive }) => (isActive ? activeLink : inactiveLink)} to="/dashboard/portfolio/history">TRANSACTION HISTORY</NavLink>
+          {/* <NavLink className={({ isActive }) => (isActive ? activeLink : inactiveLink)} to="/dashboard/portfolio/history">TRANSACTION HISTORY</NavLink> */}
           {' '}
         </li>
       </ul>

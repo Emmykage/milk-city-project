@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaQuestionCircle, FaRegUser } from 'react-icons/fa';
 import { IoMdNotificationsOutline } from 'react-icons/io';
+import { useSelector } from 'react-redux';
 
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
-const UserLayout = ({ children }) => (
+const UserLayout = ({ children }) => {
+  const navigate = useNavigate()
+const {user} = useSelector (state => state.auth)
+
+  useEffect(()=> {
+    if(!user){
+      navigate('/auth/login')
+    
+    }
+
+  },[])
+
+
+
+  return(
   <div className="h-full flex flex-col bg-gray-200 overflow-y-auto">
     <header className="bg-white flex justi py-10 shadow px-2 md:px-10 items-center border-b">
       <NavLink to="/" className="px-2 w-52 text-3xl text-green-700 font-semibold">MMPC</NavLink>
@@ -37,5 +52,5 @@ const UserLayout = ({ children }) => (
 
   </div>
 );
-
+}
 export default UserLayout;

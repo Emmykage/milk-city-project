@@ -1,15 +1,16 @@
 import { createReducer, createSlice } from "@reduxjs/toolkit"
-import { registerUser } from "../action/auth"
+import { registerUser, userProfile } from "../action/auth"
 import { get_access_token, set_access_token } from "../../utility/misc"
 
 const initialState = {
     loading: false,
     status: null,
     logged: false,
-    error: false
+    error: false,
+    user: null
 }
 
-const AuthSlice = createSlice({
+const authSlice = createSlice({
     name: "auth",
     initialState,
     reducers: {
@@ -39,5 +40,30 @@ const AuthSlice = createSlice({
             ...state,
             error: true
         }})
+        .addCase(userProfile.fulfilled, (state, action) => {
+            return{
+                ...state,
+                user: action.payload.data,
+                error: false
+            }
+        })
+        .addCase(userProfile.pending, (state, action) => {
+            return{
+                ...state,
+                loading: true,
+            
+
+            }
+        })
+        .addCase(userProfile.rejected, (state, action) => {
+            return{
+                ...state,
+                user: action.payload.data,
+                error: true,
+                user: null
+            }
+        })
     }
 })
+
+export default authSlice.reducer

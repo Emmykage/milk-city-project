@@ -9,15 +9,25 @@ const Nav = () => {
   const [stickyNav, setStickyNav] = useState('bg-gray-100 absolute');
   const [openMenu, setOpenMenu] = useState(false);
   const handleStickNav = () => {
+      console.log("first out")
+
+
     if (window.scrollY >= 120) {
+
       setStickyNav('fixed top-0 left-0 w-full z-50 bg-white');
     } else {
       setStickyNav('bg-gray-100/50 absolute');
     }
   };
-  useEffect(() => {
-    window.addEventListener('scroll', handleStickNav);
-  }, []);
+
+  useEffect(()=> {
+    window.addEventListener('scroll', handleStickNav)
+
+    return ()=> {
+      window.removeEventListener('scroll', handleStickNav)
+    }
+  },[])
+
   return (
     <div className={`${stickyNav} text-center flex items-center justify-between px-6 lg:px-14 py-6  top-0 left-0 w-full z-20 `}>
       <a href="/" className="text-xl text-green-700 w-28">

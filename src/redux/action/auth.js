@@ -63,4 +63,30 @@ const userSession = createAsyncThunk('users/session', async ({ data }, {rejectWi
 
 });
 
-export { registerUser, userSession };
+const userProfile = createAsyncThunk('users/profile', async (_, {rejectWithValue}) => {
+
+  try {
+    const response = await fetch(`${baseUrl}users/profile`, {
+      headers: {
+        "Content-type": "application/json"
+      }
+
+    })
+
+    if(!response.ok){
+      const err = await response.json()
+      return rejectWithValue(err)
+
+    }
+    const result = await response.json()
+
+    return result
+    
+  } catch (error) {
+    return rejectWithValue({message: "Something went wrong"})
+    
+  }
+
+});
+
+export { registerUser, userSession, userProfile };
